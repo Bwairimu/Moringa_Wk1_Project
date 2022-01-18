@@ -1,5 +1,8 @@
  /*import font from fonts css file*/
  @import url(./css/fonts.css);
+ * {
+    box-sizing: border-box;
+ }
  /* start navigation*/
  .header_area .main-menu .navbar .navbar-brand {
      padding: 0 2rem 0 5rem;
@@ -25,7 +28,7 @@
      margin: 0%;
      box-sizing: border-box;
      width: 100%;
-     height: 100%
+     height: 100%;
      text-transform: capitalize;
  }
  .header_area .main-menu .navbar .navbar-nav :hover {
