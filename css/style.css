@@ -4,12 +4,26 @@
  * {
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+ }
+ html,body {
+    margin:0px;
+    padding:0px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-transform:initial;
+ }
+ body{
+    background-image:url(../assets/images/background/bg.jpg);
+    background-size: cover;  
  }
  /* start navigation*/
  #topNav{
      text-transform:uppercase;
- }
- .navbar .navbar-brand {
+ }/navbar .navbar-brand {
      padding: 0 2rem 0 5rem;
  }
  .navbar {
@@ -28,26 +42,17 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
  }
- @media screen and (max-width: 768px) {
-    .navbar a {
+ @media screen and (min-width: 768px) {
+    #topNav {
       align-content: flex-start;
       width: 100%;
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
       .img{
           align-content: flex-start;
       }
- html,body {
-     margin: 20px;
-     padding: 10px;
-     font-family: 'Dosis', sans-serif;
-     box-sizing: border-box;
-     width: 100%;
-     height: 100%;
-     text-transform:initial;
-    
- }
+
  .header_area .main-menu .navbar .navbar-nav :hover {
      background-color:purple;
      -webkit-background-clip: text;
@@ -57,3 +62,4 @@
  #navmenu {
      text-transform: uppercase;
  }
+}
